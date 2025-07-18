@@ -1,11 +1,45 @@
 # Fuzzy Intrusion Detection System
 
-Introduction:
+INTRODUCTION:
 In today’s highly connected digital world, protecting computer networks from malicious activities is more critical than ever. Intrusion Detection Systems (IDS) act as the first line of defense by identifying suspicious activities in network traffic. Traditional IDS approaches—especially signature-based systems—struggle to detect unknown attacks and often suffer from high false alarm rates.
 
 To overcome these limitations, this project applies Fuzzy Logic, an intelligent decision-making system inspired by human reasoning, to build a more adaptable and robust IDS. Fuzzy logic allows the system to handle imprecise, uncertain, or vague inputs—a common scenario in network behavior.
 
+OBJECTIVES:
+
+To design a Fuzzy Inference System (FIS) that detects abnormal behavior in network traffic.
+
+To reduce the false positive rate common in traditional IDS.
+
+To evaluate the system using the KDDCup99 or NSL-KDD datasets.
+
+To simulate and visualize the detection process using MATLAB Fuzzy Logic Toolbox.
+
+PROJECT APPROACH:
+
+
 Dataset used:
+KDD Cup 1999 Dataset
+Used in both base papers
+
+Description:
+Based on DARPA 1998 network traffic simulations.
+
+Contains 41 features per record.
+
+Data is labeled as either normal or a specific type of attack.
+
+Widely criticized for redundancy and outdated attack patterns, but still a common educational benchmark.
+
+🔗 Download Links:
+[UCI Repository (10% version – kddcup.data_10_percent)]
+https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html
+
+Direct 10% dataset:
+http://kdd.ics.uci.edu/databases/kddcup99/kddcup.data_10_percent.gz
+
+Full dataset:
+http://kdd.ics.uci.edu/databases/kddcup99/kddcup.data.gz
 
 | Limitation                                   | Found in Paper | My Improvement                                        |
 | -------------------------------------------- | -------------- | ----------------------------------------------------- |
